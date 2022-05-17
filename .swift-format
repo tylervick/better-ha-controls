@@ -1,0 +1,7 @@
+{
+  "tabWidth" : 8,
+  "lineLength" : 100,
+  "indentation" : {
+    "spaces" : 4
+  },
+}

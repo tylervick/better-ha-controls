@@ -17,6 +17,12 @@
 		303AF94D28316C5600CC3630 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AF92328316C5400CC3630 /* ContentView.swift */; };
 		303AF94E28316C5600CC3630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303AF92428316C5600CC3630 /* Assets.xcassets */; };
 		303AF94F28316C5600CC3630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303AF92428316C5600CC3630 /* Assets.xcassets */; };
+		303AF95F28316D6D00CC3630 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AF95E28316D6D00CC3630 /* PreferencesView.swift */; };
+		303AF96028316D6D00CC3630 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AF95E28316D6D00CC3630 /* PreferencesView.swift */; };
+		305EF6072831DE8A00C17F94 /* NetworkDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305EF6062831DE8A00C17F94 /* NetworkDiscovery.swift */; };
+		305EF6082831DE8A00C17F94 /* NetworkDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305EF6062831DE8A00C17F94 /* NetworkDiscovery.swift */; };
+		30A485D328321D0C005BA2B6 /* WebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A485D228321D0C005BA2B6 /* WebServer.swift */; };
+		30A485D428321D0C005BA2B6 /* WebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A485D228321D0C005BA2B6 /* WebServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,10 @@
 		303AF94228316C5600CC3630 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		303AF94628316C5600CC3630 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		303AF94828316C5600CC3630 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		303AF95E28316D6D00CC3630 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		305EF6062831DE8A00C17F94 /* NetworkDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDiscovery.swift; sourceTree = "<group>"; };
+		30A485D228321D0C005BA2B6 /* WebServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServer.swift; sourceTree = "<group>"; };
+		30A485D528322609005BA2B6 /* Better-HA-Controls--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Better-HA-Controls--macOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,7 @@
 		303AF91C28316C5400CC3630 = {
 			isa = PBXGroup;
 			children = (
+				30A485D528322609005BA2B6 /* Better-HA-Controls--macOS--Info.plist */,
 				303AF92128316C5400CC3630 /* Shared */,
 				303AF93028316C5600CC3630 /* macOS */,
 				303AF93928316C5600CC3630 /* Tests iOS */,
@@ -100,6 +111,9 @@
 				303AF92228316C5400CC3630 /* Better_HA_ControlsApp.swift */,
 				303AF92328316C5400CC3630 /* ContentView.swift */,
 				303AF92428316C5600CC3630 /* Assets.xcassets */,
+				303AF95E28316D6D00CC3630 /* PreferencesView.swift */,
+				305EF6062831DE8A00C17F94 /* NetworkDiscovery.swift */,
+				30A485D228321D0C005BA2B6 /* WebServer.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -300,7 +314,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				303AF94C28316C5600CC3630 /* ContentView.swift in Sources */,
+				303AF95F28316D6D00CC3630 /* PreferencesView.swift in Sources */,
 				303AF94A28316C5600CC3630 /* Better_HA_ControlsApp.swift in Sources */,
+				30A485D328321D0C005BA2B6 /* WebServer.swift in Sources */,
+				305EF6072831DE8A00C17F94 /* NetworkDiscovery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				303AF94D28316C5600CC3630 /* ContentView.swift in Sources */,
+				303AF96028316D6D00CC3630 /* PreferencesView.swift in Sources */,
 				303AF94B28316C5600CC3630 /* Better_HA_ControlsApp.swift in Sources */,
+				30A485D428321D0C005BA2B6 /* WebServer.swift in Sources */,
+				305EF6082831DE8A00C17F94 /* NetworkDiscovery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +497,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tylervick.Better-HA-Controls";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tylervick.better-ha-controls";
 				PRODUCT_NAME = "Better HA Controls";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -507,7 +527,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tylervick.Better-HA-Controls";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tylervick.better-ha-controls";
 				PRODUCT_NAME = "Better HA Controls";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -530,6 +550,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Better-HA-Controls--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -537,7 +558,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tylervick.Better-HA-Controls";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tylervick.better-ha-controls";
 				PRODUCT_NAME = "Better HA Controls";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -558,6 +579,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Better-HA-Controls--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -565,7 +587,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tylervick.Better-HA-Controls";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tylervick.better-ha-controls";
 				PRODUCT_NAME = "Better HA Controls";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
