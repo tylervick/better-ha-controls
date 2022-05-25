@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30198850283C0060008872A5 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3019884F283C0060008872A5 /* PreferencesView.swift */; };
+		30198851283C0060008872A5 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3019884F283C0060008872A5 /* PreferencesView.swift */; };
+		303219A3283D47D20045A8B2 /* NetworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303219A2283D47D20045A8B2 /* NetworkViewModel.swift */; };
+		303219A4283D47D20045A8B2 /* NetworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303219A2283D47D20045A8B2 /* NetworkViewModel.swift */; };
+		303219A6283D80F80045A8B2 /* NetworkBrowserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303219A5283D80F80045A8B2 /* NetworkBrowserServices.swift */; };
+		303219A7283D80F80045A8B2 /* NetworkBrowserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303219A5283D80F80045A8B2 /* NetworkBrowserServices.swift */; };
+		303219AA283D9A660045A8B2 /* NeedleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 303219A9283D9A660045A8B2 /* NeedleFoundation */; };
+		303219AD283D9A750045A8B2 /* NeedleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 303219AC283D9A750045A8B2 /* NeedleFoundation */; };
 		303AF93B28316C5600CC3630 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AF93A28316C5600CC3630 /* Tests_iOS.swift */; };
 		303AF93D28316C5600CC3630 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AF93C28316C5600CC3630 /* Tests_iOSLaunchTests.swift */; };
 		303AF94728316C5600CC3630 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AF94628316C5600CC3630 /* Tests_macOS.swift */; };
@@ -17,6 +25,10 @@
 		303AF94D28316C5600CC3630 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AF92328316C5400CC3630 /* ContentView.swift */; };
 		303AF94E28316C5600CC3630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303AF92428316C5600CC3630 /* Assets.xcassets */; };
 		303AF94F28316C5600CC3630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303AF92428316C5600CC3630 /* Assets.xcassets */; };
+		307D7E99283C2A6A00EA2D94 /* PreferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D7E98283C2A6A00EA2D94 /* PreferencesViewModel.swift */; };
+		307D7E9A283C2A6A00EA2D94 /* PreferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D7E98283C2A6A00EA2D94 /* PreferencesViewModel.swift */; };
+		3090FA30283C340200D2CFA0 /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3090FA2F283C340200D2CFA0 /* NetworkView.swift */; };
+		3090FA31283C340200D2CFA0 /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3090FA2F283C340200D2CFA0 /* NetworkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3019884F283C0060008872A5 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		303219A2283D47D20045A8B2 /* NetworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewModel.swift; sourceTree = "<group>"; };
+		303219A5283D80F80045A8B2 /* NetworkBrowserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBrowserServices.swift; sourceTree = "<group>"; };
 		303AF92228316C5400CC3630 /* Better_HA_ControlsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Better_HA_ControlsApp.swift; sourceTree = "<group>"; };
 		303AF92328316C5400CC3630 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		303AF92428316C5600CC3630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +64,8 @@
 		303AF94228316C5600CC3630 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		303AF94628316C5600CC3630 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		303AF94828316C5600CC3630 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		307D7E98283C2A6A00EA2D94 /* PreferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewModel.swift; sourceTree = "<group>"; };
+		3090FA2F283C340200D2CFA0 /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303219AD283D9A750045A8B2 /* NeedleFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303219AA283D9A660045A8B2 /* NeedleFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3019884E283C0047008872A5 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				3019884F283C0060008872A5 /* PreferencesView.swift */,
+				307D7E98283C2A6A00EA2D94 /* PreferencesViewModel.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		303219A1283D47C10045A8B2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3090FA2F283C340200D2CFA0 /* NetworkView.swift */,
+				303219A2283D47D20045A8B2 /* NetworkViewModel.swift */,
+				303219A5283D80F80045A8B2 /* NetworkBrowserServices.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		303219AB283D9A750045A8B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		303AF91C28316C5400CC3630 = {
 			isa = PBXGroup;
 			children = (
@@ -91,12 +136,15 @@
 				303AF93928316C5600CC3630 /* Tests iOS */,
 				303AF94528316C5600CC3630 /* Tests macOS */,
 				303AF92A28316C5600CC3630 /* Products */,
+				303219AB283D9A750045A8B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		303AF92128316C5400CC3630 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				303219A1283D47C10045A8B2 /* Network */,
+				3019884E283C0047008872A5 /* Preferences */,
 				303AF92228316C5400CC3630 /* Better_HA_ControlsApp.swift */,
 				303AF92328316C5400CC3630 /* ContentView.swift */,
 				303AF92428316C5600CC3630 /* Assets.xcassets */,
@@ -157,6 +205,9 @@
 			dependencies = (
 			);
 			name = "Better HA Controls (iOS)";
+			packageProductDependencies = (
+				303219AC283D9A750045A8B2 /* NeedleFoundation */,
+			);
 			productName = "Better HA Controls (iOS)";
 			productReference = 303AF92928316C5600CC3630 /* Better HA Controls.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +225,9 @@
 			dependencies = (
 			);
 			name = "Better HA Controls (macOS)";
+			packageProductDependencies = (
+				303219A9283D9A660045A8B2 /* NeedleFoundation */,
+			);
 			productName = "Better HA Controls (macOS)";
 			productReference = 303AF92F28316C5600CC3630 /* Better HA Controls.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +303,9 @@
 				Base,
 			);
 			mainGroup = 303AF91C28316C5400CC3630;
+			packageReferences = (
+				303219A8283D9A660045A8B2 /* XCRemoteSwiftPackageReference "needle" */,
+			);
 			productRefGroup = 303AF92A28316C5600CC3630 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,8 +356,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3090FA30283C340200D2CFA0 /* NetworkView.swift in Sources */,
+				303219A3283D47D20045A8B2 /* NetworkViewModel.swift in Sources */,
 				303AF94C28316C5600CC3630 /* ContentView.swift in Sources */,
+				30198850283C0060008872A5 /* PreferencesView.swift in Sources */,
 				303AF94A28316C5600CC3630 /* Better_HA_ControlsApp.swift in Sources */,
+				307D7E99283C2A6A00EA2D94 /* PreferencesViewModel.swift in Sources */,
+				303219A6283D80F80045A8B2 /* NetworkBrowserServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3090FA31283C340200D2CFA0 /* NetworkView.swift in Sources */,
+				303219A4283D47D20045A8B2 /* NetworkViewModel.swift in Sources */,
 				303AF94D28316C5600CC3630 /* ContentView.swift in Sources */,
+				30198851283C0060008872A5 /* PreferencesView.swift in Sources */,
 				303AF94B28316C5600CC3630 /* Better_HA_ControlsApp.swift in Sources */,
+				307D7E9A283C2A6A00EA2D94 /* PreferencesViewModel.swift in Sources */,
+				303219A7283D80F80045A8B2 /* NetworkBrowserServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,6 +768,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		303219A8283D9A660045A8B2 /* XCRemoteSwiftPackageReference "needle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/needle.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		303219A9283D9A660045A8B2 /* NeedleFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303219A8283D9A660045A8B2 /* XCRemoteSwiftPackageReference "needle" */;
+			productName = NeedleFoundation;
+		};
+		303219AC283D9A750045A8B2 /* NeedleFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303219A8283D9A660045A8B2 /* XCRemoteSwiftPackageReference "needle" */;
+			productName = NeedleFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 303AF91D28316C5400CC3630 /* Project object */;
 }
